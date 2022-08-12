@@ -1,0 +1,89 @@
+body{
+  background-color: #9266ff;
+}
+.App{
+  background-color: #3f3160;
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto; 
+  color: black;
+}
+.App h1{
+  text-align: center;
+  font-size: px;
+  margin: 20px auto;
+  position: relative;
+  top: 20px;
+}
+
+.Headings{
+  width:100%;
+  height: 50px;margin:0;
+  padding:0;
+  margin-top: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+input{
+  background-color: rgb(27,112,137);
+  border: 0;
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+  font-size: 15px;
+  border-radius: 0px;
+  color: #ffff;
+}
+
+input::placeholder{
+  color: rgba(255,255,255,0.5);
+}
+
+input:focus, button:focus{
+  outline: none;
+}
+
+button{
+  height: 50px;
+  width: 80px;
+  border-radius: 5px;
+  border: 0;
+  background-color:rgb(202,156,24);
+  cursor: pointer;
+  font-weight: bolder;
+  color: #ffff;
+}
+
+input:focus, button:focus{
+  outline: none;
+}
+
+.task{
+  font-size: 20px;
+  color: #fff;
+  width: 300px;
+  background-color: #bf07ac;
+  height:60px;
+  margin: 20px auto;
+  border-radius: 5px;
+  display:flex;
+  flex-direction: row;
+}
+
+.task p{
+  padding-bottom: 20px;
+  color: white;
+}
+
+.task p span{
+  position: absolute;
+  right: 180px;
+  cursor:pointer;
+}
+
+.faicons{
+  margin: 0 5px;
+  font-size: 15px;
+}
